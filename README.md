@@ -27,7 +27,7 @@ Not handled: EOT subsetting metadata beyond the header, and hdmx/VDMX (MTX drops
 
 ## Licence and patents
 
-A port of [libeot](https://github.com/umanwizard/libeot) by Brennan T. Vincent,
+Copyright Reducto AI. A port of [libeot](https://github.com/umanwizard/libeot) by Brennan T. Vincent,
 whose LZCOMP code comes from Monotype's MTX reference and was relicensed under MPL-2.0.
 This crate is MPL-2.0 too (see `LICENSE`).
 
