@@ -1,0 +1,23 @@
+[package]
+name = "eotrs"
+version = "0.1.0"
+description = "Embedded OpenType (EOT) to TrueType, with MicroType Express decompression. A pure-Rust port of libeot."
+edition = "2024"
+rust-version = "1.88"
+license = "MPL-2.0"
+repository = "https://github.com/hewliyang/eotrs"
+keywords = ["eot", "font", "truetype", "mtx", "opentype"]
+categories = ["parser-implementations", "compression"]
+readme = "README.md"
+exclude = [".github"]
+
+[dependencies]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+cast_possible_truncation = "allow"
+cast_possible_wrap = "allow"
+cast_sign_loss = "allow"
+many_single_char_names = "allow"
+missing_panics_doc = "allow"
+doc_markdown = "allow"
