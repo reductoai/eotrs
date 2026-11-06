@@ -251,9 +251,9 @@ pub fn unpack(data: &[u8], version: u8) -> Option<Vec<u8>> {
     let mut emit = |win: &mut Vec<u8>, v: u8| {
         win.push(v);
         if run_length {
-            rl.push(v)
+            rl.push(v);
         } else {
-            rl.out.push(v)
+            rl.out.push(v);
         }
     };
     while win.len() - PRELOAD < out_len {
